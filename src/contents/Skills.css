@@ -1,0 +1,64 @@
+/* Skills.css */
+
+.skills-container {
+    padding: 20px;
+    background-color: #121212; /* Background color for the skills section */
+    color: #fff;
+    margin: 30px;
+    display:flex
+  }
+  
+  .skills-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  .skl{
+    color: white;
+  }
+
+  .skilimg {
+    width: 500px;
+    height: 350px;
+    padding: 15%;
+    filter: brightness(90%) contrast(96.5%) hue-rotate(30deg);
+  }
+  
+  
+  .skill-category {
+    margin-bottom: 20px;
+    display: flex
+  }
+  
+  .skill-category h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .skill-box {
+    width: 120px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #000000, #00ddff); /* Gradient background color */
+    color: #000000;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgb(249, 2, 2); /* Box shadow for a subtle lift effect */
+  }
+  
+  .skill-box p {
+    margin: 0;
+    box-shadow: 3px 3px 5px #000000;
+    padding: 3px ;
+  }
+  
+  .skill-box:hover {
+    transform: scale(1.05); /* Scale up on hover for an interactive effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase box shadow on hover */
+  }
+  

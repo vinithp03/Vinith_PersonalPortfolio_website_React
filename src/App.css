@@ -1,0 +1,20 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(90deg, #000000, #001F3F); /* Bluish-black gradient */
+  color: #000000; /* Set the text color to white or a light color */
+}
+
+.App {
+  text-align: center;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+

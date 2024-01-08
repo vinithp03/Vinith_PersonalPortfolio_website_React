@@ -1,0 +1,23 @@
+/* About.css */
+
+.about-container {
+  text-align: center;
+  height: 35vh;
+  margin: 30px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #2c3e50; /* Dark grayish blue */
+}
+
+p {
+  color: #34495e; /* Grayish blue */
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* You can customize the colors and styles further based on your preferences. */
