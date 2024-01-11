@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="about-container">
       <h2>About Me</h2>
-      <p>
+      <p className='aboutme'>
         I am a passionate and dedicated individual from a diverse background.
         My journey in the world of coding began with a keen interest in creating
         user-friendly and visually appealing web interfaces. Despite not having

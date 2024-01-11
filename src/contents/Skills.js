@@ -36,11 +36,24 @@ const Skills = () => {
         <div className="skill-box">
           <p>SQL</p>
         </div>
-        
+               <span className='orange'></span>
       </div>
     </div>
     <div className="skillImgae">
-    <img className='skilimg' src="../routine.png" alt="Profile" />
+      <p className='code'>  
+      <span className='orange'>def</span> success(dedication, persistence, passion):<br/>
+          dedication += 1  <span className='comment'> # dedicate yourself </span> <br/>
+          persistence += 1 <span className='comment'> # be persistent </span> <br/>
+          passion = True  <span className='comment'> # have passion</span> <br/><br/>
+          <span className='orange'>if</span> passion == True: <br/>
+          magic = dedication + persistence <br/>
+          <span className='orange'>return</span> magic <br/>
+          else: <br/>
+          magic = 0 <br/>
+          return magic <br/>
+
+          <span className='comment' style={ {wordSpacing:'10px'} }> #love_It.  #make_mistakes.  #learn.  #keep_Grinding. </span>
+    </p>
     </div>
 
     </div>

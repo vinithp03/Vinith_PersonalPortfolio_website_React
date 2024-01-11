@@ -1,11 +1,19 @@
 // Navbar.js
 
-import React from 'react';
+import React, { useState } from 'react';
 import './Navbar.css';
 import HomeRoundedIcon from "@mui/icons-material/HomeRounded";
 import QualificationSelect from './QualificationSelect';
+import DarkModeSharpIcon from '@mui/icons-material/DarkModeSharp';
+import TipsAndUpdatesSharpIcon from '@mui/icons-material/TipsAndUpdatesSharp';
 
 const Navbar = () => {
+  const [isLightTheme, setIsLightTheme] = useState(true);
+
+  const toggleTheme = () => {
+    setIsLightTheme((prevTheme) => !prevTheme);
+  };
+
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {
@@ -13,9 +21,8 @@ const Navbar = () => {
     }
   };
 
-
   return (
-    <nav className="navbar">
+    <nav className={`navbar ${isLightTheme ? 'light-theme' : 'dark-theme'}`}>
       <div className="container">
         <div className="logo" onClick={() => scrollToSection('home')}>
           <span className="first-half">Port</span>
@@ -41,6 +48,10 @@ const Navbar = () => {
               Contact
             </li>
           </ul>
+        </div>
+        <div className="theme-toggle" onClick={toggleTheme}>
+          
+          {isLightTheme ? <DarkModeSharpIcon/> : <TipsAndUpdatesSharpIcon/>}
         </div>
       </div>
     </nav>

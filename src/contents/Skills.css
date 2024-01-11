@@ -16,14 +16,6 @@
     color: white;
   }
 
-  .skilimg {
-    width: 500px;
-    height: 350px;
-    padding: 15%;
-    filter: brightness(90%) contrast(96.5%) hue-rotate(30deg);
-  }
-  
-  
   .skill-category {
     margin-bottom: 20px;
     display: flex
@@ -60,5 +52,25 @@
   .skill-box:hover {
     transform: scale(1.05); /* Scale up on hover for an interactive effect */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase box shadow on hover */
+  }
+
+  .comment{
+    color: green;
+  }
+
+  .skillImgae {
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 30px;
+  }
+
+  .code{
+    color: white;
+    line-height: 25px;
+  }
+
+  .orange{
+    color: rgb(200, 170, 21);
   }
   
