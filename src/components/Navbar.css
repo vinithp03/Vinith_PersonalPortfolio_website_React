@@ -6,6 +6,7 @@
   width: 100%;
   transition: background-color 0.5s ease;
   outline: 1px solid red;
+  height: 50px;
 }
 
 .container {
@@ -63,6 +64,9 @@
   background-color: #ffffff;
   color: #000000;
   box-shadow: 5px 10px 5px rgb(37, 37, 37);
+}
+.light-theme .second-half{
+  color :black;
 }
 
 .dark-theme {

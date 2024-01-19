@@ -40,12 +40,40 @@
   }
   
   h3 {
-    color: #008af3;
+    color: rgb(255, 124, 10)
   }
   
   p {
     color: #333;
     margin: 8px 0;
+  }
+
+  .certificate{
+    text-align: end;
+    margin-right: 50px;
+    color: #fefcfc;
+    padding-bottom: 10px;
+
+  }
+
+  .anchor{
+    text-decoration: none;
+    color: antiquewhite;
+  }
+
+  .anchor:hover{
+    color:aquamarine;
+    transform: scale(1.05)
+  }
+
+  .cirti{
+    height: 25px;
+    padding: 15px;
+    padding-left: 10px;
+  }
+
+  .cirti:hover{
+    transform: scale(1.05)
   }
   
   
