@@ -5,8 +5,8 @@ import Button from "@mui/material/Button";
 const Profile = () => {
   // Function to handle CV download
   const handleDownloadCV = () => {
-    // Provide the correct path to your CV file
-    const cvPath = "../Vinith_cv.pdf";
+    // Provide the correct path to your CV file in the public folder
+    const cvPath = process.env.PUBLIC_URL + "/Vinith_cv.pdf";
     // Create a temporary link element
     const link = document.createElement("a");
     // Set the download attribute and file path
@@ -19,7 +19,10 @@ const Profile = () => {
   return (
     <div className="profile-container">
       <div className="profile-image">
-        <img src="../vinith2.O.png" alt="Profile" />
+        <img
+          src={process.env.PUBLIC_URL + "/vinithProfile.jpg"}
+          alt="Profile"
+        />
       </div>
       <div className="profile-info">
         <h2>Hello, It's Me</h2>
