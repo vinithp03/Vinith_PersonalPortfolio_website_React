@@ -1,15 +1,15 @@
 // App.js
 
-import React from 'react';
-import Navbar from './components/Navbar';
-import Profile from './components/Profile';
-import About from './contents/About';
-import Skills from './contents/Skills';
-import Education from './contents/Education';
-import Experience from './contents/Experience';
-import Contact from './contents/Contact';
-import Courses from './contents/Courses';
-import './App.css';
+import React from "react";
+import Navbar from "./components/Navbar";
+import Profile from "./components/Profile";
+import About from "./contents/About";
+import Skills from "./contents/Skills";
+import Education from "./contents/Education";
+import Experience from "./contents/Experience";
+import Contact from "./contents/Contact";
+import Courses from "./contents/Courses";
+import "./App.css";
 
 const App = () => {
   return (
@@ -28,14 +28,14 @@ const App = () => {
         <Education />
       </div>
       <div id="course">
-        <Courses/>
+        <Courses />
       </div>
       <div id="experience">
         <Experience />
       </div>
       <div id="contact">
         <Contact />
-      </div> 
+      </div>
     </div>
   );
 };
