@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Vinith_PersonalPortfolio_website_React/static/css/main.d13b9826.css",
+    "main.js": "/Vinith_PersonalPortfolio_website_React/static/js/main.08c3ba60.js",
+    "static/js/787.0246763a.chunk.js": "/Vinith_PersonalPortfolio_website_React/static/js/787.0246763a.chunk.js",
+    "index.html": "/Vinith_PersonalPortfolio_website_React/index.html",
+    "main.d13b9826.css.map": "/Vinith_PersonalPortfolio_website_React/static/css/main.d13b9826.css.map",
+    "main.08c3ba60.js.map": "/Vinith_PersonalPortfolio_website_React/static/js/main.08c3ba60.js.map",
+    "787.0246763a.chunk.js.map": "/Vinith_PersonalPortfolio_website_React/static/js/787.0246763a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d13b9826.css",
+    "static/js/main.08c3ba60.js"
+  ]
+}
