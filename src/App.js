@@ -24,15 +24,19 @@ const App = () => {
       <div id="skills">
         <Skills />
       </div>
-      <div id="education">
-        <Education />
-      </div>
-      <div id="course">
-        <Courses />
-      </div>
+
       <div id="experience">
         <Experience />
       </div>
+
+      <div id="education">
+        <Education />
+      </div>
+
+      <div id="course">
+        <Courses />
+      </div>
+
       <div id="contact">
         <Contact />
       </div>
