@@ -1,79 +1,80 @@
 /* Courses.css */
 
 .courses {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    gap: 10px;
-    flex-wrap: wrap;
-    margin: 30px;
-   padding-bottom: 50px;
-  }
-  .crs{
-    margin: 30px;
-    background-color: #121212;
-  }
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 30px;
+  padding-bottom: 50px;
+}
 
-  .titl{
-    color: white;
-  }
-  
-  .course-item {
-    border: 1px solid #e0e0e0;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-    transition: transform 0.3s ease-in-out;
-    background: linear-gradient(to bottom right, #fefcfc, #00ddff); /* Gradient background color */
-    color: #000000;
-    font-weight: bold;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-    box-shadow: 0 4px 8px rgb(249, 2, 2); /* Box shadow for a subtle lift effect */
-  }
-  
-  .course-item:hover {
-    transform: scale(1.05);
-  }
-  
-  h3 {
-    color: rgb(255, 124, 10)
-  }
-  
-  p {
-    color: #333;
-    margin: 8px 0;
-  }
+.crs {
+  margin: 30px;
+  background-color: #121212;
+}
 
-  .certificate{
-    text-align: end;
-    margin-right: 50px;
-    color: #fefcfc;
-    padding-bottom: 10px;
+.titl {
+  color: white;
+}
 
-  }
+.course-item {
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  background: linear-gradient(to bottom right, #fefcfc, #94f1ff);
+  /* Gradient background color */
+  color: #000000;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgb(249, 2, 2);
+  /* Box shadow for a subtle lift effect */
+}
 
-  .anchor{
-    text-decoration: none;
-    color: antiquewhite;
-  }
+.course-item:hover {
+  transform: scale(1.05);
+}
 
-  .anchor:hover{
-    color:aquamarine;
-    transform: scale(1.05)
-  }
+h3 {
+  color: rgb(255, 124, 10)
+}
 
-  .cirti{
-    height: 25px;
-    padding: 15px;
-    padding-left: 10px;
-  }
+p {
+  color: #333;
+  margin: 8px 0;
+}
 
-  .cirti:hover{
-    transform: scale(1.05)
-  }
-  
-  
+.certificate {
+  text-align: end;
+  margin-right: 50px;
+  color: #fefcfc;
+  padding-bottom: 10px;
+
+}
+
+.anchor {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+.anchor:hover {
+  color: aquamarine;
+  transform: scale(1.05)
+}
+
+.cirti {
+  height: 25px;
+  padding: 15px;
+  padding-left: 10px;
+}
+
+.cirti:hover {
+  transform: scale(1.05)
+}

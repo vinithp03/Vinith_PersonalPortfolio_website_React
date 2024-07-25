@@ -6,11 +6,11 @@ const Profile = () => {
   // Function to handle CV download
   const handleDownloadCV = () => {
     // Provide the correct path to your CV file in the public folder
-    const cvPath = process.env.PUBLIC_URL + "/Vinith_cv.pdf";
+    const cvPath = process.env.PUBLIC_URL + "/Vinith_CareerProfile_2024.pdf";
     // Create a temporary link element
     const link = document.createElement("a");
     // Set the download attribute and file path
-    link.download = "Vinith_CV.pdf";
+    link.download = "Vinith_CareerProfile_2024.pdf";
     link.href = cvPath;
     // Trigger a click on the link to start the download
     link.click();
