@@ -7,6 +7,9 @@ import { SiCss3 } from "react-icons/si";
 import { RiJavaFill } from "react-icons/ri";
 import CppIcon from "../components/CppIcon";
 import { BsFiletypeSql } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
+import Button from "@mui/material/Button";
+import SendIcon from "@mui/icons-material/Send";
 
 const Skills = () => {
   const fontEnd = [
@@ -17,7 +20,7 @@ const Skills = () => {
   ];
   const backend = [<RiJavaFill size={50} />, <CppIcon />];
   return (
-    <>
+    <div className="skill-outer ">
       <div className="skills-container">
         <div className="outerSkill">
           <h2 className="skl" style={{ color: "#FFA500" }}>
@@ -71,7 +74,15 @@ const Skills = () => {
           </p>
         </div>
       </div>
-    </>
+      <div className="gitHub">
+        <FaGithub size={25} />
+        <Button className="cirti" variant="contained" endIcon={<SendIcon />}>
+          <a className="anchor" href="https://github.com/vinithp03">
+            Vinith GitHub
+          </a>
+        </Button>
+      </div>
+    </div>
   );
 };
 

@@ -18,8 +18,3 @@ body {
   display: flex;
   justify-content: space-between;
 }
-
-.gitHub {
-  margin-top: 10px;
-  margin-right: -100px;
-}

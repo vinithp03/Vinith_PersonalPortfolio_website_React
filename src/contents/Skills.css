@@ -1,12 +1,15 @@
 /* Skills.css */
 
 .skills-container {
+  display: flex
+}
+
+.skill-outer {
   padding: 20px;
   background-color: #121212;
   /* Background color for the skills section */
   color: #fff;
   margin: 30px;
-  display: flex
 }
 
 .skills-container h2 {
@@ -78,4 +81,17 @@
 
 .orange {
   color: rgb(200, 170, 21);
+}
+
+.gitHub {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  margin-left: 80%;
+}
+
+.anchor {
+  text-decoration: none;
+  color: antiquewhite;
 }

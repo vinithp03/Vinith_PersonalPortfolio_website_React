@@ -8,7 +8,6 @@ import Experience from "./contents/Experience";
 import Contact from "./contents/Contact";
 import Courses from "./contents/Courses";
 import "./App.css";
-import { FaGithub } from "react-icons/fa";
 
 const App = () => {
   return (
@@ -22,9 +21,6 @@ const App = () => {
       </div>
       <div id="skills">
         <Skills />
-        <div className="gitHub">
-          <FaGithub size={25} />
-        </div>
       </div>
       <div id="experience">
         <Experience />
