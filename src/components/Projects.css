@@ -1,0 +1,123 @@
+#projects {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 30px;
+  padding: 5vh 0px;
+  background-color: #606060;
+  margin: 16vh 12px 12px 12px;
+  border-radius: 18px;
+}
+
+.project {
+  margin: 2vh 12px 12px 12px;
+  background-color: #121212;
+  border: 1px solid black;
+  border-radius: 18px;
+  padding: 20px;
+  width: 25vw;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-light {
+  margin: 2vh 12px 12px 12px;
+  background-color: #ffffff;
+  border: 1px solid #404040;
+  border-radius: 18px;
+  padding: 20px;
+  width: 25vw;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project:hover,
+.project-light:hover {
+  transform: scale(1.05);
+}
+
+.project h3 {
+  color: #ffffff;
+}
+
+.project-light h3 {
+  color: #000000;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.project-light img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.project ul,
+.project-light ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.project ul li {
+  color: #fefcfc;
+  margin: 8px 0;
+  font-weight: bold;
+}
+
+.project-light ul li {
+  color: #000000;
+  margin: 8px 0;
+  font-weight: bold;
+}
+
+.title-light {
+  color: white;
+}
+
+.title {
+  color: rgb(0, 0, 0);
+}
+
+.project a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background: linear-gradient(to bottom right, #fefcfc, #898989);
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-light a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background: linear-gradient(to bottom right, #fefcfc, #898989);
+  transition: transform 0.3s ease-in-out;
+}
+
+.project p {
+  color: #ffffff;
+}
+
+.project-light p {
+  color: #000000;
+}
+
+.project a:hover,
+.project-light a:hover {
+  color: rgb(255, 0, 0);
+  transform: scale(1.05);
+}

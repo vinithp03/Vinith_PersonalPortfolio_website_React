@@ -1,0 +1,124 @@
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: 78vh;
+  border-radius: 18px;
+}
+
+.contact-info {
+  padding: 20px;
+  width: 30vw;
+  background: linear-gradient(to bottom right, #fefcfc, #b6b6b6);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.contact-form {
+  padding: 20px;
+  background: linear-gradient(to bottom right, #fefcfc, #b6b6b6);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.hh2 {
+  margin-left: 15%;
+  margin-bottom: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #00bbff;
+
+}
+
+.hh3 {
+  margin-left: 30%;
+  margin-bottom: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #00bbff;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+  color: #000000;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  color: rgb(0, 0, 0)
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: block;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #00559b;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #007bb5;
+}
+
+#outlined-basic {
+  color: #000000;
+  background: linear-gradient(to bottom, rgb(88, 236, 236), rgb(212, 212, 242));
+  height: 10px;
+}
+
+.message {
+  width: 350px;
+}
+
+.icon {
+  color: #020405;
+  filter: drop-shadow(0px 0px 3px #00eeff);
+  transition: box-shadow 0.3s ease;
+}
+
+.icon:hover {
+  filter: drop-shadow(0px 0px 3px #ff0000);
+}
+
+.cont {
+  display: flex;
+  gap: 30px;
+  justify-content: start;
+  flex: 1;
+  align-items: center;
+}
+
+.contact {
+  background-color: rgba(0, 0, 0, 0.95);
+  border-radius: 18px;
+  margin: 16vh 15px 15px 15px;
+}
+
+.contact-light {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 18px;
+  margin: 16vh 15px 15px 15px;
+}

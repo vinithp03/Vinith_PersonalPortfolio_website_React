@@ -1,0 +1,74 @@
+/* Experience.css */
+
+.exp-dark {
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  background: linear-gradient(to bottom right, #fefcfc, #94f1ff);
+  /* Gradient background color */
+  color: #000000;
+  margin: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 7px rgb(2, 6, 249);
+  /* Box shadow for a subtle lift effect */
+}
+
+.exp-light {
+  border: 1px solid #5c5c5c;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  background: linear-gradient(to bottom right, #fefcfc, #b6b6b6);
+  color: #000000;
+  margin: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgb(40, 45, 47);
+}
+
+.exp-dark:hover,
+.exp-light:hover {
+  transform: scale(1.02);
+}
+
+.work-dark {
+  margin: 16vh 12px 12px 12px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #121212;
+}
+
+.work-light {
+  margin: 16vh 12px 12px 12px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.comp {
+  color: #0073ff;
+}
+
+.position {
+  font-weight: bold;
+  color: #333;
+}
+
+.duration,
+.location {
+  color: #555;
+}
+
+.responsibilities {
+  list-style-type: none;
+  padding: 0;
+  color: #333;
+}
+
+.responsibilities li {
+  margin: 8px 0;
+}

@@ -1,0 +1,80 @@
+.edu {
+  padding: 20px;
+  background-color: #121212;
+  margin: 2vh 12px 12px 12px;
+  border-radius: 18px;
+}
+
+.edu-light {
+  padding: 20px;
+  background-color: #ffffff;
+  margin: 2vh 12px 12px 12px;
+  border-radius: 18px;
+}
+
+.education-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to bottom right, #fefcfc, #94f1ff);
+  color: #000000;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgb(249, 2, 2);
+}
+
+.education-item-light {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to bottom right, #fefcfc, #b6b6b6);
+  color: #000000;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgb(40, 45, 47);
+}
+
+.he2 {
+  color: rgb(255, 255, 255);
+}
+
+.institution-logo {
+  width: 80px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.education-details {
+  flex: 1;
+}
+
+.education-details h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #000000;
+  /* Dark text color */
+}
+
+.education-details p {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #000000;
+  /* Slightly lighter text color */
+}
+
+/* Hover effect for each item */
+.education-item:hover {
+  background-color: #000000;
+  /* Lighter background on hover */
+  transition: background-color 0.3s ease;
+}
