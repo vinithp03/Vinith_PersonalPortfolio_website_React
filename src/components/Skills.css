@@ -1,5 +1,4 @@
-/* Skills.css */
-
+/* Original Styles */
 .skills-container {
   display: flex;
 }
@@ -11,7 +10,6 @@
   color: #fff;
   border-radius: 18px;
 }
-
 
 .skill-outer-light {
   margin-top: 16vh;
@@ -49,7 +47,6 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(to bottom right, #000000, #94f1ff);
-  /* Gradient background color */
   color: #000000;
   font-weight: bold;
   border-radius: 8px;
@@ -58,7 +55,6 @@
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
   box-shadow: 0 4px 8px rgb(249, 2, 2);
-  /* Box shadow for a subtle lift effect */
 }
 
 .skill-box p {
@@ -125,4 +121,68 @@
   background-color: #000000;
   box-shadow: 0px 0px 10px #004f0b;
   border: solid 1px green;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+  .skills-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skill-outer,
+  .skill-outer-light {
+    margin: 12vh 8px 8px 8px;
+    padding: 0 15px;
+  }
+
+  .skill-box {
+    width: 100px;
+    height: 70px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+
+  .skills-container h2 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+
+  .skill-category h3 {
+    font-size: 1rem;
+  }
+
+  .gitHub {
+    margin-left: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .skill-box {
+    width: 80px;
+    height: 60px;
+  }
+
+  .gitHub {
+    margin-left: 60%;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-container {
+    padding: 0;
+  }
+
+  .skill-box {
+    width: 70px;
+    height: 50px;
+  }
+
+  .gitHub {
+    margin-left: 50%;
+  }
+
+  .btn-outline-success {
+    padding: 8px 16px;
+  }
 }
