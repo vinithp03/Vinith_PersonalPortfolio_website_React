@@ -3,7 +3,7 @@
   height: 80vh;
   gap: 100px;
   border: 1px solid rgba(0, 0, 0, 0.267);
-  background-image: url("/public/portFolioBackground.jpg");
+  background-image: url("/portFolioBackground.jpg");
   background-size: 100% 100%;
   margin: 16vh 12px 12px 12px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
@@ -19,7 +19,7 @@
   height: 80vh;
   gap: 100px;
   border: 1px solid rgba(0, 0, 0, 0.267);
-  background-image: url("/public/porFolioBackgroundImage.jpg");
+  background-image: url("/porFolioBackgroundImage.jpg");
   margin: 16vh 12px 12px 12px;
   background-size: 100% 100%;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;

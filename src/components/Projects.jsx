@@ -20,7 +20,7 @@ const Projects = () => {
         <ul>
           <li>React, Redux, HTML,CSS,JS</li>
           <li>Features: Task creation, deletion, and completion</li>
-          <li ><a href="/ToDo-Demo.mp4"><RiLiveLine size={20} style={{ marginBottom: "-4.5px" }} /> Live Demo</a> | <a href="https://github.com/vinithp03/Vinith-React_ToDo_App/tree/main"><FaGithub size={20} style={{ marginBottom: "-4.5px" }} /> GitHub Repo</a></li>
+          <li ><a href="https://drive.google.com/file/d/1PsCSAxpv6F6R9G_2aBpBRiLnlv260RnZ/view?usp=sharing"><RiLiveLine size={20} style={{ marginBottom: "-4.5px" }} /> Live Demo</a> | <a href="https://github.com/vinithp03/Vinith-React_ToDo_App/tree/main"><FaGithub size={20} style={{ marginBottom: "-4.5px" }} /> GitHub Repo</a></li>
         </ul>
       </div>
 
@@ -31,7 +31,7 @@ const Projects = () => {
         <ul>
           <li>React, Redux, Router</li>
           <li>Features: product display, Add to bag, responsive design</li>
-          <li><a href="/myntraClone-domo.mp4"> <RiLiveLine size={20} style={{ marginBottom: "-4.5px" }} /> Live Demo</a> | <a href="https://github.com/vinithp03/Myntra-clone-react/tree/main"><FaGithub size={20} style={{ marginBottom: "-4.5px" }} /> GitHub Repo</a></li>
+          <li><a href="https://drive.google.com/file/d/1Zm5AnlwThHaSoIe5eUdMKRhsEP2Y3YiF/view?usp=sharing"> <RiLiveLine size={20} style={{ marginBottom: "-4.5px" }} /> Live Demo</a> | <a href="https://github.com/vinithp03/Myntra-clone-react/tree/main"><FaGithub size={20} style={{ marginBottom: "-4.5px" }} /> GitHub Repo</a></li>
         </ul>
       </div>
 

@@ -17,7 +17,7 @@ const Contact = () => {
         <div className="contact-info">
           <h2 className='hh2'>Contact Information</h2>
           <div className='cont'> <Name className='icon' /><p>Vinith</p> </div>
-          <div className='cont'> <Email className='icon' /><p> vinithpoojary321@gmail.com</p></div>
+          <div className='cont'> <Email className='icon' /><p> vinithpoojary1303@gmail.com</p></div>
           <div className='cont'> <Phone className='icon' /> <p> +91 9986008497</p></div>
           <div className='cont'> <LinkedIn className='icon' /> <p> <a href="https://www.linkedin.com/in/vinithpoojary" target="_blank" rel="noopener noreferrer">linkedin.com/in/vinithpoojary</a></p></div>
           <div className='cont'> <Instagram className='icon' /><p> <a href="https://www.instagram.com/vinith_poojary.03?igsh=MTNiYzNiMzkwZA==" target="_blank" rel="noopener noreferrer">instagram.com/vinith_poojary.03</a></p></div>

@@ -3,9 +3,8 @@ import { createRoot } from 'react-dom/client'
 import App from './routes/App.jsx'
 import './main.css'
 import { Provider } from 'react-redux'
-import prortfolioStore from './store/mainStore.jsx'
+import prortfolioStore from './store/MainStore.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Profile from './components/Profile.jsx'
 import About from './components/About.jsx'
 import Skills from './components/Skills.jsx'
 import HomePage from './routes/HomePage.jsx'
@@ -20,7 +19,7 @@ const router = createBrowserRouter([
     children:
       [
         { path: '/home', element: <HomePage /> },
-        { path: '/', element: <Profile /> },
+        { path: '/', element: <HomePage /> },
         { path: '/about', element: <About /> },
         { path: '/skills', element: <Skills /> },
         { path: '/qualifications', element: <Qualification /> },
