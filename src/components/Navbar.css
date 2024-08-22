@@ -1,3 +1,4 @@
+/* Styles for larger screens (PC) */
 .container {
   display: flex;
   justify-content: space-evenly;
@@ -34,7 +35,6 @@
   font-size: 1.5rem;
   font-weight: bold;
   cursor: pointer;
-
 }
 
 .first-half {
@@ -68,7 +68,6 @@
   border-radius: 4px;
   transition: background 0.3s ease;
   cursor: pointer;
-
 }
 
 .nav-item:hover {
@@ -85,7 +84,6 @@
   box-shadow: 5px 10px 5px rgb(37, 37, 37);
 }
 
-
 .dark-theme {
   background-color: #000000;
   color: #ffffff;
@@ -97,11 +95,34 @@
   font-weight: bold;
   color: #ff0000;
   transition: filter 0.3s ease;
-  /* Add smooth transition */
 }
 
 .theme-toggle:hover {
   color: #ffffff;
   filter: drop-shadow(0 0 5px #dbf300) drop-shadow(0 0 20px #f3ef00) drop-shadow(0 0 30px #e3f300) brightness(1.2);
-  /* Adjust glow effect and brightness on hover */
+}
+
+/* Responsive Styles for Mobile */
+@media (max-width: 768px) {
+
+  .container,
+  .container-light {
+    padding: 0 10px;
+    justify-content: space-between;
+    height: 10vh;
+  }
+
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  .nav-list {
+    gap: 0.8rem;
+    margin-right: 0;
+  }
+
+  .nav-item {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
 }

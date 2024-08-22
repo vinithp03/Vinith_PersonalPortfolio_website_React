@@ -1,35 +1,32 @@
-.profile-container-black {
+/* Profile Container Styles */
+.profile-container-black,
+.profile-container-white {
   display: flex;
+  flex-direction: row;
   height: 80vh;
   gap: 100px;
   border: 1px solid rgba(0, 0, 0, 0.267);
-  background-image: url("/portFolioBackground.jpg");
   background-size: 100% 100%;
   margin: 16vh 12px 12px 12px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   border-radius: 18px;
   overflow: hidden;
-  border: 1px solid #646464;
   justify-content: space-around;
   align-items: center;
+}
+
+/* Black and White Background Images */
+.profile-container-black {
+  background-image: url("/portFolioBackground.jpg");
+  border-radius: 18px;
 }
 
 .profile-container-white {
-  display: flex;
-  height: 80vh;
-  gap: 100px;
-  border: 1px solid rgba(0, 0, 0, 0.267);
   background-image: url("/porFolioBackgroundImage.jpg");
-  margin: 16vh 12px 12px 12px;
-  background-size: 100% 100%;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   border-radius: 20px;
-  overflow: hidden;
-  border: 1px solid #646464;
-  justify-content: space-around;
-  align-items: center;
 }
 
+/* Profile Image Styles */
 .profile-image {
   border-radius: 50%;
   overflow: hidden;
@@ -45,82 +42,43 @@
   object-fit: cover;
 }
 
-@keyframes slideIn {
-  from {
-    transform: translateX(-100%);
-  }
-
-  to {
-    transform: translateX(0);
-  }
-}
-
-.role {
-  color: red;
-  font-size: 18px;
-}
-
-.profile-info-black {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #000000;
-  text-align: center;
-  animation: slideIn 5s ease-out;
-}
-
-.profile-info-black h2,
-.profile-info-black h1 {
-  font-size: 35px;
-  color: #ffffff;
-  filter: drop-shadow(10px 13px 10px rgb(20, 20, 20));
-  line-height: 35px;
-}
-
-.profile-info-black p {
-  filter: drop-shadow(10px 13px 3px rgb(0, 0, 0));
-  color: #ffffff;
-}
-
-.profile-info-black button {
-  padding: 10px 20px;
-  background-color: #000000;
-  color: #ff0000;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.profile-info-black button:hover {
-  background-color: #ffffff;
-  box-shadow: 0px 0px 10px #ff0000;
-}
-
+/* Profile Info Styles */
+.profile-info-black,
 .profile-info-white {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #000000;
   text-align: center;
   animation: slideIn 5s ease-out;
 }
 
+.profile-info-black h2,
+.profile-info-black h1,
 .profile-info-white h2,
 .profile-info-white h1 {
   font-size: 35px;
-  color: #000000;
-  filter: drop-shadow(10px 13px 10px rgb(181, 181, 181));
   line-height: 35px;
+  filter: drop-shadow(10px 13px 10px rgb(20, 20, 20));
 }
 
-.profile-info-white p {
-  filter: drop-shadow(10px 13px 3px rgb(210, 209, 209));
+.profile-info-black h1,
+.profile-info-black h2 {
+  color: #ffffff;
+}
+
+.profile-info-white h1,
+.profile-info-white h2 {
   color: #000000;
 }
 
+.profile-info-black p,
+.profile-info-white p {
+  filter: drop-shadow(10px 13px 3px rgb(0, 0, 0));
+  color: #ffffff;
+}
+
+.profile-info-black button,
 .profile-info-white button {
   padding: 10px 20px;
   background-color: #000000;
@@ -131,7 +89,45 @@
   transition: background-color 0.3s ease;
 }
 
+.profile-info-black button:hover,
 .profile-info-white button:hover {
-  background-color: #000000;
+  background-color: #ffffff;
   box-shadow: 0px 0px 10px #ff0000;
+}
+
+/* Responsive Styles for Mobile */
+@media (max-width: 768px) {
+
+  .profile-container-black,
+  .profile-container-white {
+    flex-direction: row;
+    height: auto;
+    margin: 10vh 8px 8px 8px;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .profile-image {
+    width: 25vh;
+    height: 25vh;
+  }
+
+  .profile-info-black h1,
+  .profile-info-black h2,
+  .profile-info-white h1,
+  .profile-info-white h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .profile-info-black p,
+  .profile-info-white p {
+    font-size: 14px;
+  }
+
+  .profile-info-black button,
+  .profile-info-white button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
 }
