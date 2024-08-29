@@ -14,6 +14,7 @@ const Contact = () => {
   return (
     <div className={toggle ? "contact-light" : "contact"}>
       <div className="contact-container">
+
         <div className="contact-info">
           <h2 className='hh2'>Contact Information</h2>
           <div className='cont'> <Name className='icon' /><p>Vinith</p> </div>
@@ -22,6 +23,7 @@ const Contact = () => {
           <div className='cont'> <LinkedIn className='icon' /> <p> <a href="https://www.linkedin.com/in/vinithpoojary" target="_blank" rel="noopener noreferrer">linkedin.com/in/vinithpoojary</a></p></div>
           <div className='cont'> <Instagram className='icon' /><p> <a href="https://www.instagram.com/vinith_poojary.03?igsh=MTNiYzNiMzkwZA==" target="_blank" rel="noopener noreferrer">instagram.com/vinith_poojary.03</a></p></div>
         </div>
+
         <div className="contact-form">
           <h2 className='hh3'>Contact Me</h2>
           <form>
@@ -37,6 +39,7 @@ const Contact = () => {
             <button type="submit" >Submit</button>
           </form>
         </div>
+
       </div>
     </div>
   );

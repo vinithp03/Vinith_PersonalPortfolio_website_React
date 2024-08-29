@@ -3,7 +3,7 @@
 .contact-container {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 100vw;
   height: 78vh;
   border-radius: 18px;
@@ -15,6 +15,7 @@
   background: linear-gradient(to bottom right, #fefcfc, #b6b6b6);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+  height: 80%;
 }
 
 .contact-form {
@@ -22,6 +23,7 @@
   background: linear-gradient(to bottom right, #fefcfc, #b6b6b6);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+  height: 80%;
 }
 
 .hh2,
@@ -133,7 +135,7 @@ button:hover {
   .contact-info,
   .contact-form {
     width: 70vw;
-    margin-bottom: 20px;
+    margin: 20px 0px;
   }
 
   .hh2,
@@ -147,7 +149,7 @@ button:hover {
 
   .contact-info,
   .contact-form {
-    width: 80vw;
+    width: 60vw;
   }
 
   .message {
@@ -168,16 +170,23 @@ button:hover {
 
   .contact-info,
   .contact-form {
-    width: 90vw;
+    width: 60vw;
+    margin: 20px 20px;
   }
 
   .hh2,
-  .hh3 {
-    font-size: 24px;
+  .hh3,
+  .cont {
+    font-size: 0.8em;
   }
 
   .contact-container {
-    padding: 10px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
   }
 
   .form-group {

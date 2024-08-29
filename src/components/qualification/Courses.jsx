@@ -35,6 +35,7 @@ const Courses = () => {
           <p>JSpiders Training & Development center, Bangalore</p>
           <p>Duration: 2 months</p>
         </div>
+
       </div>
       <p className={toggle ? "certificate-light" : "certificate"}>
         Certificate :{"  "}
