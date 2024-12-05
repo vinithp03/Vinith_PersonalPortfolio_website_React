@@ -84,12 +84,12 @@ button {
 }
 
 button:hover {
-  background-color: #007bb5;
+  background-color: #080808;
 }
 
 #outlined-basic {
   color: #000000;
-  background: linear-gradient(to bottom, rgb(88, 236, 236), rgb(212, 212, 242));
+  background: linear-gradient(to bottom, rgb(134, 134, 134), rgb(255, 255, 255));
 }
 
 .message {
@@ -98,7 +98,7 @@ button:hover {
 
 .icon {
   color: #020405;
-  filter: drop-shadow(0px 0px 3px #00eeff);
+  filter: drop-shadow(0px 0px 3px #d3d3d3);
   transition: box-shadow 0.3s ease;
 }
 

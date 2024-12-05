@@ -1,44 +1,48 @@
-import React from 'react'
-import "./Projects.css"
+import React, { useRef } from 'react';
+import "./Projects.css";
 import { RiLiveLine } from "react-icons/ri";
 import { FaGithub } from "react-icons/fa";
 import { useSelector } from 'react-redux';
-import { blue } from '@mui/material/colors';
-
-
+import { projectsList } from './projectslist.js';
 
 const Projects = () => {
-  const { toggle } = useSelector((store) => store.mode)
+  const { toggle } = useSelector((store) => store.mode);
+  const projectsRef = useRef(null);
+
+  const scrollLeft = () => {
+    projectsRef.current.scrollBy({ left: -300, behavior: 'smooth' });
+  };
+
+  const scrollRight = () => {
+    projectsRef.current.scrollBy({ left: 300, behavior: 'smooth' });
+  };
+
   return (
-    <section id="projects">
-      <h2 class={toggle ? "title-light" : "title"}>Personal Projects (React)</h2>
-
-      <div class={toggle ? "project-light" : "project"}>
-        <h3>Todo App</h3>
-        <img src="/toDoAppUi.png" alt="Todo App Screenshot" />
-        <p>A simple task management application(ToDo app) to help users organize their daily tasks.</p>
-        <ul>
-          <li>React, Redux, HTML,CSS,JS</li>
-          <li>Features: Task creation, deletion, and completion</li>
-          <li ><a href="https://drive.google.com/file/d/1PsCSAxpv6F6R9G_2aBpBRiLnlv260RnZ/view?usp=sharing"><RiLiveLine size={20} style={{ marginBottom: "-4.5px" }} /> Live Demo</a> | <a href="https://github.com/vinithp03/Vinith-React_ToDo_App/tree/main"><FaGithub size={20} style={{ marginBottom: "-4.5px" }} /> GitHub Repo</a></li>
-        </ul>
+    <div className='project-container'>
+      <h2 className={toggle ? "title-light" : "title"} style={{ color: "#FFA500", marginLeft: "12px" }}>Personal Projects (React)</h2>
+      <div className="carousel-controls">
+        <button onClick={scrollLeft}>←</button>
+        <button onClick={scrollRight}>→</button>
       </div>
+      <section id="projects" ref={projectsRef}>
+        {projectsList.map((ele, index) => (
+          <div key={index} className={toggle ? "project-light" : "project"}>
+            <h3>{ele.title}</h3>
+            <img src={ele.imgSrc} alt="img" />
+            <p>{ele.description}</p>
+            <ul>
+              <li>{ele.skill}</li>
+              <li>{ele.features}</li>
+              <li>
+                <a href={ele.live}><RiLiveLine size={20} style={{ marginBottom: "-4.5px" }} /> Live Demo</a> |
+                <a href={ele.github}><FaGithub size={20} style={{ marginBottom: "-4.5px" }} /> GitHub Repo</a>
+              </li>
+            </ul>
+          </div>
+        ))}
+      </section>
+    </div>
+  );
+};
 
-      <div class={toggle ? "project-light" : "project"}>
-        <h3>Myntra Clone</h3>
-        <img src="/myntraClone-ui.png" alt="Myntra Clone Screenshot" />
-        <p>An e-commerce web application that mimics the functionality of Myntra, including product listing and filtering.</p>
-        <ul>
-          <li>React, Redux, Router</li>
-          <li>Features: product display, Add to bag, responsive design</li>
-          <li><a href="https://drive.google.com/file/d/1Zm5AnlwThHaSoIe5eUdMKRhsEP2Y3YiF/view?usp=sharing"> <RiLiveLine size={20} style={{ marginBottom: "-4.5px" }} /> Live Demo</a> | <a href="https://github.com/vinithp03/Myntra-clone-react/tree/main"><FaGithub size={20} style={{ marginBottom: "-4.5px" }} /> GitHub Repo</a></li>
-        </ul>
-      </div>
-
-    </section >
-
-  )
-}
-
-export default Projects
-
+export default Projects;

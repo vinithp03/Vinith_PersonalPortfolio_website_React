@@ -9,7 +9,7 @@ const Experience = () => {
       <div className={toggle ? "exp-light" : "exp-dark"}>
         <h2 className="comp">Ominion pre-media private limited</h2>
         <p className="position">Software Developer</p>
-        <p className="duration">June 2023 - Present</p>
+        <p className="duration">June 2023 - jun 2024</p>
         <p className="location">Udupi, Karnataka</p>
         <ul className="responsibilities">
           <li>
